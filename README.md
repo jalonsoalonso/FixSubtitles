@@ -7,20 +7,16 @@ From and original SRT file, it is possible to generate a new version by either
 
 Example uses:
 1) Set the starting time to 1 second
-
-createSRTFromFileStart('StarWarsIV.srt','start.srt','00:00:01,000')
+	createSRTFromFileStart('StarWarsIV.srt','start.srt','00:00:01,000')
 
 2) Set the starting time to 1 hour, 1 minute, 1 second, 999 milliseconds
-
-createSRTFromFileStart('StarWarsIV.srt','start.srt','01:01:01,999')
+	createSRTFromFileStart('StarWarsIV.srt','start.srt','01:01:01,999')
 
 3) Shift time values 1.5 seconds
-
-createSRTFromFileShift('StarWarsIV.srt','shift1.srt',1.5)
+	createSRTFromFileShift('StarWarsIV.srt','shift1.srt',1.5)
 
 4) Shift time values -30.2 seconds
-
-createSRTFromFileShift('StarWarsIV.srt','shift2.srt',-30.2)
+	createSRTFromFileShift('StarWarsIV.srt','shift2.srt',-30.2)
 
 SRT Protocol: list of sequences
 
