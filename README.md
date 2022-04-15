@@ -6,6 +6,7 @@ From and original SRT file, it is possible to generate a new version by either
 - Shifting all the dialogues for a specific amount of seconds with float point precision.
 
 Example uses:
+
 Set the starting time to 1 second
 
 	createSRTFromFileStart('StarWarsIV.srt','start.srt','00:00:01,000')
